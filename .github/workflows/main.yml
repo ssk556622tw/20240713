@@ -10,4 +10,7 @@ jobs:
         - uses: actions/checkout@v2
         - name: run test.py
           run: 
-            python3 test.py    
+            python3 test.py   
+        - name: run test2.py
+          run:
+            python3 test2.py 
