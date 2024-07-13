@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
 sender = "ssk556622tw@gmail.com" #設定寄件人
-receiver = ["A99228@capital.com.tw","ssk556622tw@gmial.com"]#設定收件人
+receiver = ["A99228@capital.com.tw","ssk556622tw@gmail.com"]#設定收件人
 
 
 for receivers in receiver:
