@@ -11,6 +11,11 @@ jobs:
         - name: run send_mail.py
           run: 
             python3 send_mail.py   
-        - name: run test2.py
-          run:
-            python3 test2.py 
+    build2:
+      neam: do job2
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: Run test 2 py
+        run:
+          pythn3 test2.py 
