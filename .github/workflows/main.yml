@@ -8,7 +8,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v2
-        - name: run send_mail.py
+        - name: run send mail.py
           run: 
             python3 send_mail.py   
     build2:
